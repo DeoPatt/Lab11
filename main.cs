@@ -94,5 +94,41 @@ class MainClass {
  
   f2.Promote();
  
+
+ Faculty f3 = new Faculty();
+      f3.DateOfEmployment = Convert.ToDateTime("01/01/2009");
+
+
+    f3.FirstName = "diamond";
+   f3.LastName = "ruby";
+   f3.Intro2();
+   
+      
+  f3.Title = "Associate Professor";
+  f3.Intro();
+   f3.GrantTenure();
+  
+  Console.WriteLine("My years of experience now is " + f3.yearsOfExp + " years");
+ 
+  f3.Promote();
+
+
+  Faculty f4 = new Faculty();
+      f4.DateOfEmployment = Convert.ToDateTime("01/01/2018");
+
+
+    f4.FirstName = "diamond";
+   f4.LastName = "ruby";
+   f4.Intro2();
+   
+      
+  f4.Title = "Instructor";
+  f4.Intro();
+   f4.GrantTenure();
+  
+  Console.WriteLine("My years of experience now is " + f4.yearsOfExp + " years");
+ 
+  f4.Promote();
+  
   }
 }
